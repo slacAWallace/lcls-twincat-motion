@@ -14,6 +14,8 @@ STRUCT
 	bLimGntFwd:	BOOL := FALSE; //Forward virtual gantry limit switch
 	bLimGntBwd:	BOOL := FALSE; //Reverse virtual gantry limit switch
 	
+	bSTO: BOOL := FALSE; // Motor enable (hook to hardware)
+	
 	// Settings
 	bPowerSelf: BOOL:=TRUE;
 	nEnableMode: INT:=ENUM_StageEnableMode.STAGE_ENABLE_MOTION;
